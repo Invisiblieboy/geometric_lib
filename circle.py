@@ -14,6 +14,8 @@ def area(r):
         Пример вызова:
             area(3)  # 28.26
     '''
+    if r < 0:
+        raise ValueError
     return math.pi * r * r
 
 
@@ -30,5 +32,7 @@ def perimeter(r):
         Пример вызова:
             perimeter(3)  # 18.84
     '''
+    if r < 0:
+        raise ValueError
     return 2 * math.pi * r
 
