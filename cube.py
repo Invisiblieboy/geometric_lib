@@ -6,4 +6,4 @@ def volume(a):
 def area(a):
     if a < 0:
         raise ValueError
-    return a * a * 6 + 1
+    return a * a * 6
